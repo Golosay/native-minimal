@@ -1,0 +1,31 @@
+{
+  "name": "native-minimal",
+  "version": "1.0.0",
+  "description": "Native-minimal it's a CSS framework that uses simple native HTML tags. So you don't need to learn it at all.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Golosay/native-minimal.git"
+  },
+  "keywords": [
+    "css",
+    "css-framework",
+    "ui-framework",
+    "dark-theme",
+    "dark-mode",
+    "lightweight",
+    "minimal",
+    "minimalist",
+    "minimalistic",
+    "native-html",
+    "scss-framework",
+    "semantic"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Golosay/native-minimal/issues"
+  },
+  "homepage": "https://native-minimal.web.app"
+}
