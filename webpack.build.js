@@ -5,7 +5,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 
 module.exports = {
-  entry: './src/index.scss',
+  entry: {
+    'native-minimal': './src/index.scss',
+  },
   mode: 'production',
   devtool: 'source-map',
   output: {

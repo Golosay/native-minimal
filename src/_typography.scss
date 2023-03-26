@@ -1,0 +1,63 @@
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--header);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Links */
+a {
+  color: var(--link);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+mark {
+  background-color: var(--link);
+  color: var(--bg);
+  padding: 0.2rem;
+}
+
+/* Typography */
+p,
+pre,
+blockquote,
+ul,
+ol,
+table,
+figure,
+details,
+hr,
+address {
+  margin-bottom: 1rem;
+}
