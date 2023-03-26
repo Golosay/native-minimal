@@ -1,0 +1,42 @@
+# General
+.DS_Store
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+*.log
+
+# Git
+.git/
+.gitignore
+.github/
+
+# Test and CI
+test/
+__tests__/
+*.test.js
+*.spec.js
+coverage/
+.jest/
+.travis.yml
+.circleci/
+.gitlab-ci.yml
+
+# Development tools and configs
+.babelrc
+.eslintrc
+.prettierrc
+.editorconfig
+.vscode/
+.npmignore
+firebase.json
+.firebase/
+webpack.build-demo.js
+webpack.build.js
+webpack.demo.js
+
+# Build and distribution
+demo/
+build/
+.nyc_output/
+public/

@@ -1,0 +1,91 @@
+/* Lists */
+ul,
+ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Code */
+pre,
+code {
+  background-color: var(--code);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+pre {
+  white-space: pre-wrap;
+  margin-bottom: 1rem;
+}
+
+/* Blockquote */
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Media */
+img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+video {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+audio {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Figure & figcaption */
+figure {
+  margin: 1rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: var(--header);
+  margin-top: 0.5rem;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1rem 0;
+}
+
+/* Details & summary */
+details {
+  margin-bottom: 1rem;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Progress */
+progress {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Misc */
+kbd {
+  background-color: var(--code);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+section {
+  margin-bottom: 2rem;
+}

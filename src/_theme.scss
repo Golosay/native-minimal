@@ -1,0 +1,26 @@
+@import 'variables';
+
+@media only screen and (prefers-color-scheme: dark) {
+  body:not([data-theme='light']) {
+    // Dark theme variables
+    --bg: #{$bg-dark};
+    --text: #{$text-dark};
+    --header: #{$header-dark};
+    --link: #{$link-dark};
+    --code: #{$code-dark};
+    --border: #{$border-dark};
+    --input-bg: #{$input-bg-dark};
+  }
+}
+
+// Enabled if forced with data-theme="dark"
+[data-theme='dark'] {
+  // Dark theme variables
+  --bg: #{$bg-dark};
+  --text: #{$text-dark};
+  --header: #{$header-dark};
+  --link: #{$link-dark};
+  --code: #{$code-dark};
+  --border: #{$border-dark};
+  --input-bg: #{$input-bg-dark};
+}

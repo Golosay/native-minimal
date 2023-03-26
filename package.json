@@ -2,10 +2,10 @@
   "name": "native-minimal",
   "version": "1.0.0",
   "description": "Native-minimal it's a CSS framework that uses simple native HTML tags. So you don't need to learn it at all.",
-  "main": "src/index.scss",
+  "main": "dist/native-minimal.css",
   "scripts": {
-    "start": "webpack serve --open --config webpack.demo.js",
-    "build": "webpack --config webpack.demo.js --mode production",
+    "start": "webpack serve --open --config webpack.demo.js --mode development",
+    "build": "webpack --config webpack.build-demo.js --mode production",
     "build:framework": "webpack --config webpack.build.js"
   },
   "repository": {
@@ -34,6 +34,7 @@
   "homepage": "https://native-minimal.web.app",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",

@@ -1,11 +1,317 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Native-Minimal - semantic only css framework</title>
-  </head>
-  <body>
-    <h1>No-class CSS Framework for semantic HTML</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1" />
+  <title>Native-Minimal.css - semantic css framework with no .classes</title>
+</head>
+
+<body data-theme="light">
+  <aside>
+    <header>
+      <small>Created by</small>
+      <div>Volodymyr Golosay</div>
+    </header>
+    <hr>
+    <p class="small">This site is build using only Native minimal framework and 8 css rules for sidebar layout.</p>
+    <p>
+      <a _ngcontent-serverapp-c124=""
+         href="https://www.buymeacoffee.com/golosay"
+         target="_blank"
+         aria-label="Buy me a coffee"
+         rel="nofollow noopener"><img _ngcontent-serverapp-c124=""
+             src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+             alt="Buy Me A Coffee"
+             style="width: 60%;"></a>
+    </p>
+    <nav>
+      <ul>
+        <li>
+          <a href="#typo">Typography</a>
+        </li>
+        <li>
+          <a href="#list">Lists</a>
+        </li>
+        <li>
+          <a href="#blocks">Blocks</a>
+        </li>
+        <li>
+          <a href="#table">Tables</a>
+        </li>
+        <li>
+          <a href="#media">Media elements</a>
+        </li>
+        <li>
+          <a href="#form">Forms</a>
+        </li>
+        <li>
+          <a href="#accord">Accordions</a>
+        </li>
+        <li>
+          <a href="#progress">Progress bar</a>
+        </li>
+        <li>
+          <a href="#utility">Utility classes</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <section class="text-right">
+      <button id="themeToggleBtn">Toggle Theme</button>
+    </section>
+    <section>
+      <h1>Getting started with Native-Minimal</h1>
+      <p>Native-Minimal framework can be installed with npm or yarn. And used as a ready-to-go css bundle or SASS
+        (.scss) source import.</p>
+      <h4>Install with NPM</h4>
+      <pre><code>npm i native-minimal</code></pre>
+    </section>
+    <section id="typo">
+      <h2>Typography</h2>
+      <p>Native-Minimal framework styles all the headings from h1 to h6. Simply use the appropriate heading tag in your
+        HTML
+        code.</p>
+      <h1>Heading h1</h1>
+      <h2>Heading h2</h2>
+      <h3>Heading h3</h3>
+      <h4>Heading h4</h4>
+      <h5>Heading h5</h5>
+      <h6>Heading h6</h6>
+    </section>
+
+    <section>
+      <h2>Text and Links</h2>
+      <p>Native-Minimal framework styles paragraphs and links. Just use the &lt;p&gt; tag for paragraphs and &lt;a&gt;
+        tag for
+        links.</p>
+      <p>Here's a sample paragraph. For links, you can use the &lt;a&gt; tag like <a href="#">this example link</a>.</p>
+    </section>
+
+    <section id="list">
+      <h2>Lists</h2>
+      <p>Native-Minimal framework styles both ordered and unordered lists. Use &lt;ol&gt; for ordered lists and
+        &lt;ul&gt; for
+        unordered lists.</p>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ol>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+
+    <section id="blocks">
+      <h2>Code and Preformatted Text</h2>
+      <p>Native-Minimal framework styles code and preformatted text. Use the &lt;code&gt; tag for inline code and
+        &lt;pre&gt;
+        tag for blocks of preformatted text.</p>
+      <p>Here's an example of <code>inline code</code> using the &lt;code&gt; tag.</p>
+      <pre>
+Here's an example
+of preformatted text
+using the &lt;pre&gt; tag.
+      </pre>
+    </section>
+
+    <section id="table">
+      <h2>Tables</h2>
+      <p>Native-Minimal framework styles tables. Use the &lt;table&gt;, &lt;thead&gt;, &lt;tbody&gt;, &lt;tr&gt;,
+        &lt;th&gt;,
+        and &lt;td&gt; tags to create tables.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Row 1 Column 1</td>
+            <td>Row 1 Column 2</td>
+          </tr>
+          <tr>
+            <td>Row</td>
+          </tr>
+          <tr>
+            <td>Row 2 Column 1</td>
+            <td>Row 2 Column 2</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="media">
+      <h2>Images, Video, and Audio</h2>
+      <p>Native-Minimal framework styles media elements like images, videos, and audio. Use the &lt;img&gt; tag for
+        images, the
+        &lt;video&gt; tag for videos, and the &lt;audio&gt; tag for audio files.</p>
+      <img src="assets/picture.jpg"
+           alt="Corgi photo">
+      <video src="assets/video.mp4"
+             controls></video>
+      <audio src="assets/audio.mp3"
+             controls></audio>
+    </section>
+
+    <section>
+      <h2>Figure and Figcaption</h2>
+      <p>Native-Minimal framework styles figure and figcaption elements. Use the &lt;figure&gt; tag to wrap images or
+        media,
+        and the &lt;figcaption&gt; tag for captions.</p>
+      <figure>
+        <img src="assets/picture2.jpg"
+             alt="Image description">
+        <figcaption>Image caption using &lt;figcaption&gt;.</figcaption>
+      </figure>
+    </section>
+
+    <section id="form">
+      <h2>Form Elements</h2>
+      <p>Our CSS framework styles form elements such as inputs, textareas, buttons, selects, and more. Use the
+        appropriate tags to create and style your form elements.</p>
+      <form>
+        <p>
+          <label for="text-input">Text Input:</label>
+          <input type="text"
+                 id="text-input"
+                 placeholder="Enter text">
+        </p>
+
+        <p>
+          <label for="password-input">Password Input:</label>
+          <input type="password"
+                 id="password-input"
+                 placeholder="Enter password">
+        </p>
+
+        <p>
+          <label for="email-input">Email Input:</label>
+          <input type="email"
+                 id="email-input"
+                 placeholder="Enter email">
+        </p>
+
+        <p>
+          <label for="textarea">Textarea:</label>
+          <textarea id="textarea"
+                    rows="4"
+                    placeholder="Enter your message"></textarea>
+        </p>
+
+        <p>
+          <label for="select">Select:</label>
+          <select id="select">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </p>
+
+        <p>
+        <fieldset>
+          <legend>Radio Buttons:</legend>
+          <label for="radio1">Option 1</label>
+          <input type="radio"
+                 id="radio1"
+                 name="radio-group">
+          <label for="radio2">Option 2</label>
+          <input type="radio"
+                 id="radio2"
+                 name="radio-group">
+          <label for="radio3">Option 3</label>
+          <input type="radio"
+                 id="radio3"
+                 name="radio-group">
+        </fieldset>
+        </p>
+
+        <p>
+        <fieldset>
+          <legend>Checkboxes:</legend>
+          <label for="checkbox1">Option 1</label>
+          <input type="checkbox"
+                 id="checkbox1">
+          <label for="checkbox2">Option 2</label>
+          <input type="checkbox"
+                 id="checkbox2">
+          <label for="checkbox3">Option 3</label>
+          <input type="checkbox"
+                 id="checkbox3">
+        </fieldset>
+        </p>
+
+        <p>
+          <label for="range-input">Range Input:</label>
+          <input type="range"
+                 id="range-input"
+                 min="0"
+                 max="100"
+                 step="1">
+        </p>
+
+        <p>
+          <label for="file-input">File Input:</label>
+          <input type="file"
+                 id="file-input">
+        </p>
+
+        <p>
+          <label for="date-input">Date Input:</label>
+          <input type="date"
+                 id="date-input">
+        </p>
+
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </section>
+
+
+    <section id="accord">
+      <h2>Details and Summary</h2>
+      <p>Native-Minimal framework styles details and summary elements. Use the &lt;details&gt; tag to create collapsible
+        content and the &lt;summary&gt; tag for the title of the collapsible content.</p>
+      <details>
+        <summary>Collapsible content title</summary>
+        <p>Content inside the collapsible section.</p>
+      </details>
+    </section>
+
+    <section id="progress">
+      <h2>Progress Bar</h2>
+      <p>Native-Minimal framework styles progress elements. Use the &lt;progress&gt; tag to create progress bars.</p>
+      <progress value="50"
+                max="100"></progress>
+    </section>
+
+    <section id="utility">
+      <h2>Utility Classes</h2>
+      <p>Native-Minimal framework includes utility classes for text alignment, hiding elements, and smaller text.</p>
+      <p class="small">Use the .small class to make the text smaller.</p>
+      <p class="text-left">Use the .text-left class to align the text to the left.</p>
+      <p class="text-center">Use the .text-center class to center the text.</p>
+      <p class="text-right">Use the .text-right class to align the text to the right.</p>
+      <p>Use the hidden attribute to hide an element.</p>
+    </section>
+  </main>
+  <footer></footer>
+  <script>
+    document.getElementById('themeToggleBtn').addEventListener('click', function () {
+      const theme = document.body.getAttribute('data-theme');
+      document.body.setAttribute('data-theme', theme === 'dark' ? 'light' : 'dark');
+    });
+  </script>
+</body>
+
 </html>

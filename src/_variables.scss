@@ -1,0 +1,28 @@
+// Light theme variables
+$bg: #ffffff !default;
+$text: #212121 !default;
+$header: #000000 !default;
+$link: #3b73e6 !default;
+$code: #e6e6e6 !default;
+$border: #e8e8e8 !default;
+$input-bg: #f4f4f4 !default;
+
+// Dark theme variables
+$bg-dark: #1a1a1a !default;
+$text-dark: #f4f4f4 !default;
+$header-dark: #f4f4f4 !default;
+$link-dark: #7aaeff !default;
+$code-dark: #3b3b3b !default;
+$border-dark: #3b3b3b !default;
+$input-bg-dark: #2a2a2a !default;
+
+:root {
+  // Light theme variables
+  --bg: #{$bg};
+  --text: #{$text};
+  --header: #{$header};
+  --link: #{$link};
+  --code: #{$code};
+  --border: #{$border};
+  --input-bg: #{$input-bg};
+}
