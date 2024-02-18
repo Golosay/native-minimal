@@ -1,6 +1,6 @@
 {
   "name": "native-minimal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Native-minimal it's a CSS framework that uses simple native HTML tags. So you don't need to learn it at all.",
   "main": "dist/native-minimal.css",
   "scripts": {

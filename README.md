@@ -32,7 +32,7 @@ yarn add native-minimal
 ### Import via CSS
 
 ```
-@import '~native-minimal/native-minimal.css';
+@import 'native-minimal';
 ```
 
 ### Import via SCSS
